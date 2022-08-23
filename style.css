@@ -3,255 +3,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 
 body {
-  background-color: #072627;
-  color: #7eb6af;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
+  background-color: #0a192f;
+  font-family     : "Poppins", sans-serif;
+  font-size       : 1rem;
+  line-height     : 1.5;
+  color           : white
 }
 
 body::-webkit-scrollbar {
-  width: 8px;
+  width     : 8px;
   background: #0c3d42;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #009bcaad;
+  background   : #009bcaad;
   border-radius: 10px;
-  border-right: 1px solid #1cfc93;
-  cursor: pointer;
+  border-right : 1px solid #64ffda;
+  cursor       : pointer;
 }
 
-.navbar {
-  border-bottom: 1px solid #00f3c67a;
-  color: white !important;
-  padding-top: 15px;
-  background-color: #072627;
+a {
+  text-decoration: none;
+  color          : #ccd6f6;
 }
 
-.title-logo {
-  font-family: "Zen Dots", cursive;
-  font-size: 30px;
-  color: #00f3c6;
+a:hover {
+  color: #64ffda
 }
 
-.title-logo:hover {
-  color: #04bb99;
+main {
+  margin-top: 80px
 }
 
-.log {
-  color: #00f3c6;
-  border-color: #00f3c6;
+.bar-left {
+  color      : #a8b2d1;
+  position   : fixed;
+  bottom     : 0;
+  margin-left: 150px;
 }
 
-.nav-link {
-  color: white;
-  font-size: 2rem;
+.txt1 {
+  color: #96a1c3
 }
 
-@media (min-width: 992px) {
-  section {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
+.title {
+  display       : flex;
+  flex-direction: column;
 }
 
-.ico {
-  font-size: 50px !important;
-}
-
-.mt-6 {
-  margin-top: 4rem;
-}
-
-.container {
-  max-width: 1480px;
-}
-
-.lh-sm {
-  line-height: 1.25;
+.name {
+  font-size  : 60px;
+  color      : #ccd6f6;
   font-weight: bold;
-  color: white;
 }
 
-.fs-2 {
-  font-size: 1.26563rem !important;
+.area {
+  font-size: 16px;
+  color    : #64ffda;
 }
 
-.border-700 {
-  border-color: #065456 !important;
-  border-radius: 1rem !important;
+.container-description {
+  max-width : 600px;
+  margin-top: 10px;
 }
 
-.fw-semi-bold {
-  font-weight: 600 !important;
-  color: white;
+.list-left {
+  list-style  : none;
+  padding-left: 0;
 }
 
-@media (min-width: 1200px) {
-  .display-6 {
-    font-size: 2.88651rem;
-  }
+.social {
+  margin-bottom: 15px;
+  font-size    : 20px;
+  color        : #8892b0;
 }
 
-.caracter:hover,
-.caracter:focus {
-  background-color: #063e40 !important;
-  cursor: pointer;
+.barra {
+  height       : 120px;
+  border       : 1px solid #8892b0;
+  border-radius: 10px;
 }
 
-.lh-base {
-  color: white;
-  line-height: 1.5 !important;
+.habilidad {
+  margin-top: 50px
 }
 
-@media (min-width: 1200px) {
-  h3,
-  .h3 {
-    font-size: 1.42383rem;
-  }
+.img-hab {
+  width        : 50px;
+  background   : #ffffff42;
+  border-radius: 10px;
+  padding      : 3px;
+  margin-top   : 15px;
 }
 
-/* #region precios*/
-.plans-cards:hover,
-.plans-cards:focus {
-  background-color: #021617 !important;
+.img-hab:hover {
+  transform: scale(1.2);
+  cursor   : pointer;
 }
-
-@media (min-width: 992px) {
-  .px-lg-4 {
-    padding-right: 1.8rem !important;
-    padding-left: 1.8rem !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .px-md-3 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .mt-md-9 {
-    margin-top: 10rem !important;
-  }
-}
-
-.bg-800 {
-  background-color: #001e1f !important;
-  cursor: pointer;
-  border-radius: 30px;
-}
-
-.basic {
-  background-color: #063e40 !important;
-  cursor: pointer;
-}
-
-.py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
-}
-
-.ls-3 {
-  letter-spacing: -0.03em;
-}
-
-.text-600 {
-  color: #7eb6af !important;
-}
-
-.display-4 {
-  font-size: calc(1.49032rem + 2.88388vw);
-  font-weight: 700;
-  line-height: 1;
-}
-
-@media (min-width: 1200px) {
-  .display-4 {
-    font-size: 3.65324rem;
-  }
-}
-
-hr:not([size]) {
-  height: 1px;
-}
-
-.mt-6 {
-  margin-top: 4rem !important;
-}
-
-.ps-0 {
-  padding-left: 0 !important;
-}
-
-.mt-5 {
-  margin-top: 3rem !important;
-}
-
-.plans-cards .pricing-lists {
-  list-style: none;
-  margin-top: 18px;
-}
-
-.me-2 {
-  margin-right: 0.5rem !important;
-}
-
-.fa-check-circle:before {
-  content: "\f058";
-}
-
-.go span {
-  padding-left: 5px;
-}
-
-/* #endregion*/
-
-/* #region footer */
-
-.bg-secondary {
-  background-color: #021e1f !important;
-  margin-top: 30px;
-  padding-top: 30px;
-}
-
-@media (min-width: 992px) {
-  section {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-}
-
-@media (min-width: 1300px) {
-  .text-xl-start {
-    text-align: left !important;
-  }
-}
-
-@media (min-width: 1300px) {
-  .me-xl-5 {
-    margin-right: 3rem !important;
-  }
-}
-
-.me-3 {
-  margin-right: 1rem;
-}
-
-.footer-img:hover,
-.footer-link:hover {
-  opacity: 0.8;
-}
-
-.ico-red {
-  font-size: 20px;
-  margin-right: 20px;
-  color: white;
-}
-.ico-red:hover {
-  color: rgba(255, 255, 255, 0.481);
-}
-
-/* #endregion*/
