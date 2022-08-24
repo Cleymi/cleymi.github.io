@@ -76,6 +76,7 @@ main {
   margin-bottom: 15px;
   font-size    : 20px;
   color        : #8892b0;
+  text-align   : center;
 }
 
 .social:hover {
