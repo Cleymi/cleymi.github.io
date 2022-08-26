@@ -35,6 +35,15 @@ main {
   margin-top: 80px
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px;
+}
+
 .bar-left {
   color      : #a8b2d1;
   position   : fixed;
@@ -42,8 +51,12 @@ main {
   margin-left: 150px;
 }
 
-.txt1 {
+.color1 {
   color: #96a1c3
+}
+
+.color2 {
+  color: #64ffda;
 }
 
 .title {
@@ -59,7 +72,6 @@ main {
 
 .area {
   font-size: 16px;
-  color    : #64ffda;
 }
 
 .container-description {
@@ -114,16 +126,32 @@ main {
 }
 
 .img-hab {
-  width        : 50px;
-  background   : #ffffff42;
+  width        : 45px;
+  background   : #00e8ff47;
   border-radius: 10px;
   padding      : 3px;
   margin-top   : 15px;
 }
 
+.lg {
+  width: 35px;
+}
+
 .img-hab:hover {
   transform: scale(1.2);
   cursor   : pointer;
+}
+
+.proyects {
+  margin-top   : 50px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1660px) {
+
+  .bar-left {
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
